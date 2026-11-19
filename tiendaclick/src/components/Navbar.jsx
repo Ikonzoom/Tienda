@@ -7,7 +7,7 @@ function Navbar() {
       <div className="container">
 
         <h1 className="navbar-brand m-0">
-          TiendaClick
+          Tienda iKON
         </h1>
 
         <ul className="navbar-nav ms-auto d-flex flex-row gap-3">
@@ -22,6 +22,12 @@ function Navbar() {
             <Link className="nav-link text-white" to="/productos">
               Productos
             </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link className="nav-link text-white" to="/blog">
+              Blog
+           </Link>
           </li>
 
           <li className="nav-item">

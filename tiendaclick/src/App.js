@@ -12,6 +12,8 @@ import Login from "./views/Login";
 import Carrito from "./views/Carrito";
 import Cliente from "./views/Cliente";
 
+import Blog from "./views/Blog";
+
 function App() {
   return (
     <CartProvider>
@@ -33,6 +35,9 @@ function App() {
           <Route path="/carrito" element={<Carrito />} />
 
           <Route path="/cliente" element={<Cliente />} />
+          
+          <Route path="/blog" element={<Blog />} />
+
         </Routes>
       </BrowserRouter>
     </CartProvider>
